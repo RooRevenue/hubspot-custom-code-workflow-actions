@@ -9,10 +9,10 @@ Accepts **State/Region** and/or **IP State/Region** as input sources, with confi
 
 ## What It Does
 
-HubSpot contacts frequently have inconsistent state data — abbreviations, misspellings, mixed case, and nicknames accumulated from form fills, imports, and integrations. This action maps all common variations many common typos to the corrected official state name so your state data can be stored cleanly as a dropdown value.
+HubSpot contacts frequently have inconsistent state data — abbreviations, misspellings, mixed case, and nicknames accumulated from form fills, imports, and integrations. This action maps all common variations, slang, many common typos, and two-letter state abbreviations to the corrected official state name so your state data can be stored cleanly as a dropdown value.
 
 > [!IMPORTANT]
-> By default, this action checks the **State/Region** field first. If **State/Region** is NULL, the fallback is **IP State/Region** with special handling for **Virginia** values, which are often the result of a known bug. Rreconfiguring this fallback functionality is described in detail in later sections below.
+> By default, this action checks the **State/Region** field first. If **State/Region** is NULL, the fallback is **IP State/Region** with special handling for **Virginia** values, which are often the result of a known bug. Reconfiguring this fallback functionality is described in detail in later sections below.
 
 <details>
   <summary>
