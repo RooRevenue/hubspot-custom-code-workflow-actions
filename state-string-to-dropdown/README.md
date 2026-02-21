@@ -190,22 +190,29 @@ Regardless of the `PREFER` setting, IP State/Region is ***never trusted*** when 
 
 
 
-### Output Field Setup
+## Output Field Setup
 
 | Output Field | Data Type | Description | Configuration Value |
 |---|---|---|---|
-| `normalized_state_and_territory` | Enumeration | Matched official name, or `null` if no match | Copy-paste the "Normalized_State_and_Territory" semicolon separated options listed below in the [State & Territory Enumeration Output Options](#State-and-Territory-Enumeration-Output-Options) |
+| `normalized_state_and_territory` | Enumeration | Matched official name, or `null` if no match | Copy-paste the "Normalized_State_and_Territory" semicolon separated options listed below in the [State & Territory Enumeration Output Options](#enumoptionsanchor) |
 | `unmatched_value` | String | The original input value if no match was found, or `null` | N/A |
 | `match_found` | Enumeration | `true` if a match was found | Copy-paste the following: `true;false`|
 | `error_message` | String | Populated only on a caught error or Virginia IP issue | Confirguration: N/A|
 
-#### State & Territory Enumeration Output Options
+### State & Territory Enumeration Output Options
+<a name="enumoptionsanchor"></a>
 Copy-paste the following values exactly as shown into the custom code output section after selecting "Enumeration" and naming the output field "normalized_state_and_territory".
+
+![Example](./images/outputconfig.jpg)
+
+
 <details>
   <Summary>State and Territory Enumeration Output Options </Summary>
   Alabama;Alaska;Arizona;Arkansas;California;Colorado;Connecticut;Delaware;Florida;Georgia;Hawaii;Idaho;Illinois;Indiana;Iowa;Kansas;Kentucky;Louisiana;Maine;Maryland;Massachusetts;Michigan;Minnesota;Mississippi;Missouri;Montana;Nebraska;Nevada;New Hampshire;New Jersey;New Mexico;New York;North Carolina;North Dakota;Ohio;Oklahoma;Oregon;Pennsylvania;Rhode Island;South Carolina;South Dakota;Tennessee;Texas;Utah;Vermont;Virginia;Washington;West Virginia;Wisconsin;Wyoming;Washington D.C.;Puerto Rico;U.S. Virgin Islands;Guam;American Samoa;Northern Mariana Islands
 
 </details>
+
+
 
 ---
 
