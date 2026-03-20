@@ -24,6 +24,7 @@ Each action lives in its own folder and contains:
 | Action | Description |
 |---|---|
 | [State String to Dropdown](./state-string-to-dropdown/) | Converts a freeform state text field to a standardized dropdown value |
+| [Set Record Owner From Properties](./set-record-owner-from-properties/) | Reads default fields like "hs_updated_by_user_id" or HubSpot user emails and sets record "owner" type properties |
 
 *More actions coming soon.*
 
